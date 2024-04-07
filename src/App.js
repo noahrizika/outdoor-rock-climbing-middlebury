@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
 import {
@@ -12,33 +12,33 @@ import HPBoulders from "./pages/HPBoulders";
 import MGHome from './pages/MiddGapHome';
 import Announcements from './pages/Announcements';
 
-const App = () => {
-  return (    
-    <Router>
-        <div className="App">
-            <Navbar />
-            <div className="content">
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route exact path="/Announcements">
-                        <Announcements />
-                    </Route>
-                    <Route exact path="/MiddGap">
-                        <MGHome />
-                    </Route>
-                    <Route exact path="/RoadsideBoulders">
-                        <RoadsideBoulders />
-                    </Route>
-                    <Route exact path="/HPBoulders">
-                        <HPBoulders />
-                    </Route>
-                </Switch>
+function App() {
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
+                <div className="content">
+                    <Switch>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                        <Route exact path="/Announcements">
+                            <Announcements />
+                        </Route>
+                        <Route exact path="/MiddGap">
+                            <MGHome />
+                        </Route>
+                        <Route exact path="/RoadsideBoulders">
+                            <RoadsideBoulders />
+                        </Route>
+                        <Route exact path="/HPBoulders">
+                            <HPBoulders />
+                        </Route>
+                    </Switch>
+                </div>
             </div>
-        </div>
-    </Router>
-  );
-};
+        </Router>
+    );
+}
 
 export default App;

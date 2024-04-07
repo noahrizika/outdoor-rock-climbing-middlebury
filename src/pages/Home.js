@@ -6,6 +6,8 @@ const Home = () => {
             <div className="row">
                 <div class="left-column">
                     <h1>Welcome!</h1>
+                </div>
+                <div class="left-column">
                     <br />
                     <p>Welcome to our college climbing club, where adventure awaits and friendships are forged on the wall! We are a vibrant community of climbers, both novice and experienced, who come together to embrace the thrill of scaling new heights and the joy of connecting with fellow enthusiasts. Whether you're a seasoned climber seeking a challenge or a newcomer eager to learn the ropes, our club offers a welcoming environment where everyone is encouraged to push their limits and support one another along the way. Join us at our on-campus climbing wall for exhilarating climbs, laughter-filled belays, and the chance to meet like-minded individuals who share your passion for adventure and fun. Whether you're aiming for the summit or simply looking to enjoy the journey, our club is the perfect place to find camaraderie and excitement in every ascent.</p>
                     <br /><br />
@@ -22,9 +24,8 @@ const Home = () => {
                     <p>Sunday: 3-8pm, Monday: 3-8pm, Tuesday: 2-8pm, Wednesday: 4-8pm, Thursday: 2-8pm, Friday: 1-5pm, Saturday: Closed</p>
                     <br />
                     <h3>Designated Hours</h3>
-                    <p>Beginner: </p>
-                    <p>BIPOC: </p>
-                    <p>Women/NonBinary: </p>
+                    <p>Women/NonBinary: Tuesday 6-8pm</p>
+                    <p>BIPOC: Thursday 6-8pm</p>
                     <br />
                     <h3>Join Our <a href="https://groupme.com/join_group/49649037/zrTVegsN" target="_blank" rel="noopener noreferrer">GroupMe</a> and <br /><a href="https://outlook.office365.com/owa/climbclub@middleburycollege.onmicrosoft.com/groupsubscription.ashx?action=join&source=MSExchange/LokiServer&guid=3ed0193b-ffee-4366-88df-b0eb3ddfbfe6" target="_blank" rel="noopener noreferrer">Email List</a>!</h3>
                     <br />
