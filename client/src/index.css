@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* BASE STYLE */
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    line-height: 140%;
+}
+
+/*
+    light blue: 007aff
+    middlebury dark blue: 0c395f
+*/
+
+.border {
+    border: 8px;
+    border-radius: 25px;
+    padding: 2%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+.main-text {
+    max-width: 900px;
+    margin: 80px auto;
+}
+
+body {
+    width: 1400px;
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HOME PAGE */
+img {
+    max-width: 30%;
+    margin-left: 14%;
+}
+
+.map {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* create two unequal columns that float next to each other */
+.home-main-text {
+    margin: 40px auto;
+}
+
+.left-column {
+    float: left;
+    width: 45%;
+    padding-left: 250px;
+}
+
+.right-column {
+    float: right;
+    width: 20%;
+    padding-right: 200px;
+}
+
+.nav_background {
+    background-color: white;
+}
+
+
+/* NAVBAR */
+
+hr {
+    border: 1px solid #0c395f;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 1%;
+
+}
+
+.navbar, .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 25px;
+}
+
+.navbar a:hover {
+    color: #007aff;
+}
+
+.title {
+    color: #0c395f;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    font-size: 16px;
+    font-weight: 550;
+    padding-left: 0px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 15px;
+    background-color: white;
+    color: #0c395f;
+}
+
+.dropbtn a {
+    color: #0c395f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* min-width: 160px; */
+    width: initial;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    color: #0c395f;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: #007aff
+}
+
+.dropbtn-id {
+    color: #0c395f;
+}
+
+
+
+/* GOOGLE MAP */
+#mapContainer {
+    background-color: white;
+    padding: 30px;
+}
+
+#mapClipPath {
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    position: relative;
+}
+
+
+/* MIDD GAP */
+
+.weather-btn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: none;
+    background: #0c395f;
+    color: white;
+    width: 10rem;
+}
+
+.weather-btn:hover {
+    background: #007aff;
+    color: #0c395f;
+    font-weight: 800;
+}
