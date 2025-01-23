@@ -1,11 +1,11 @@
-const { Pool } = require('pg');
+const { Pool } = require("pg");
 
 const pool = new Pool({
-  user: '<USERNAME',
-  password: '<PASSWORD>',
-  host: '<HOST>',
+  user: process.env.POSTGRESQL_USER,
+  password: process.env.POSTRESQL_PASS,
+  host: process.env.POSTGRESQL_HOST,
   port: 5432, // default port
-  database: '<DATABASE>'
+  database: process.env.POSTGRESQL_DB,
 });
 
 async function makeQuery(query) {
@@ -18,7 +18,7 @@ async function makeQuery(query) {
       client.release();
     }
   } catch (err) {
-    console.error('Database query error', err);
+    console.error("Database query error", err);
     throw err;
   }
 }
