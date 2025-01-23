@@ -2,7 +2,7 @@
 
 - Clone the repository : `git clone https://github.com/noahrizika/outdoor-rock-climbing-middlebury.git`
 
-- Install all packages: `npm install`
+- Install all packages : `npm install`
 
 - Create a .env file inside the client directory and another inside the server directory : `touch client/.env && touch server/.env`
 
